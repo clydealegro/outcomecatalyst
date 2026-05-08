@@ -439,7 +439,7 @@ export default function RealEstatePage() {
             Start with one workflow at one portco. See what the operating layer looks like before you commit to the portfolio.
           </p>
 
-          <a href="#" className="mt-10 inline-flex items-center justify-center px-8 py-4 rounded-xl bg-brand-gold hover:bg-brand-gold-hover text-brand-dark font-bold text-base transition-all duration-200 hover:scale-[1.02] shadow-lg shadow-brand-gold/20">
+          <a href="https://calendly.com/zach-outcomecatalyst/30min" target="_blank" rel="noopener noreferrer" className="mt-10 inline-flex items-center justify-center px-8 py-4 rounded-xl bg-brand-gold hover:bg-brand-gold-hover text-brand-dark font-bold text-base transition-all duration-200 hover:scale-[1.02] shadow-lg shadow-brand-gold/20">
             Book a Demo
           </a>
 

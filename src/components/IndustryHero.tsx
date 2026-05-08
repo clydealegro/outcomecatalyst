@@ -58,7 +58,7 @@ export default function IndustryHero({
 
           {/* CTA */}
           <div className="mt-12">
-            <a href="#" className="group inline-flex items-center gap-2.5 px-8 py-4 bg-brand-gold hover:bg-brand-gold-hover text-brand-dark text-base font-bold rounded-xl transition-all duration-200 hover:gap-4">
+            <a href="https://calendly.com/zach-outcomecatalyst/30min" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center gap-2.5 px-8 py-4 bg-brand-gold hover:bg-brand-gold-hover text-brand-dark text-base font-bold rounded-xl transition-all duration-200 hover:gap-4">
               Book a Demo
               <svg className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
             </a>

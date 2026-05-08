@@ -81,19 +81,21 @@ export default function Navbar() {
             </div>
           </div>
 
-          <Link href="#" className="text-brand-muted hover:text-white text-sm font-medium transition-colors duration-150">About</Link>
+          <Link href="/about" className={`text-sm font-medium transition-colors duration-150 ${pathname === '/about' ? 'text-white' : 'text-brand-muted hover:text-white'}`}>About</Link>
           <Link href="/pricing" className={`text-sm font-medium transition-colors duration-150 ${pathname === '/pricing' ? 'text-white' : 'text-brand-muted hover:text-white'}`}>Pricing</Link>
           <Link href="/contact" className={`text-sm font-medium transition-colors duration-150 ${pathname === '/contact' ? 'text-white' : 'text-brand-muted hover:text-white'}`}>Contact Us</Link>
         </nav>
 
         {/* CTA + Mobile toggle */}
         <div className="flex items-center gap-4">
-          <Link
-            href="#"
+          <a
+            href="https://calendly.com/zach-outcomecatalyst/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hidden md:inline-flex items-center justify-center px-5 py-2 bg-brand-gold hover:bg-brand-gold-hover text-brand-dark text-sm font-bold rounded-lg transition-colors duration-150 whitespace-nowrap"
           >
             Book a Demo
-          </Link>
+          </a>
 
           {/* Mobile hamburger */}
           <button
@@ -140,16 +142,18 @@ export default function Navbar() {
           >
             Healthcare
           </Link>
-          <Link href="#" className="px-4 py-3 text-sm font-medium text-brand-muted hover:text-white hover:bg-white/5 rounded-lg transition-colors duration-150" onClick={() => setMobileOpen(false)}>About</Link>
+          <Link href="/about" className={`px-4 py-3 text-sm font-medium rounded-lg transition-colors duration-150 ${pathname === '/about' ? 'text-white' : 'text-brand-muted hover:text-white hover:bg-white/5'}`} onClick={() => setMobileOpen(false)}>About</Link>
           <Link href="/pricing" className={`px-4 py-3 text-sm font-medium rounded-lg transition-colors duration-150 ${pathname === '/pricing' ? 'text-white' : 'text-brand-muted hover:text-white hover:bg-white/5'}`} onClick={() => setMobileOpen(false)}>Pricing</Link>
           <Link href="/contact" className={`px-4 py-3 text-sm font-medium rounded-lg transition-colors duration-150 ${pathname === '/contact' ? 'text-white' : 'text-brand-muted hover:text-white hover:bg-white/5'}`} onClick={() => setMobileOpen(false)}>Contact Us</Link>
           <div className="pt-3 mt-1 border-t border-white/[0.06]">
-            <Link
-              href="#"
+            <a
+              href="https://calendly.com/zach-outcomecatalyst/30min"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center justify-center w-full px-5 py-3 bg-brand-gold hover:bg-brand-gold-hover text-brand-dark text-sm font-bold rounded-lg transition-colors duration-150"
             >
               Book a Demo
-            </Link>
+            </a>
           </div>
         </nav>
       </div>

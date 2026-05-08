@@ -75,7 +75,7 @@ export default function HomePage() {
             {/* CTA row */}
             <div className="mt-12 flex flex-col lg:flex-row lg:items-end lg:justify-between gap-10">
               <div>
-                <a href="#" className="group inline-flex items-center gap-2.5 px-8 py-4 bg-brand-gold hover:bg-brand-gold-hover text-brand-dark text-base font-bold rounded-xl transition-all duration-200 hover:gap-4">
+                <a href="https://calendly.com/zach-outcomecatalyst/30min" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center gap-2.5 px-8 py-4 bg-brand-gold hover:bg-brand-gold-hover text-brand-dark text-base font-bold rounded-xl transition-all duration-200 hover:gap-4">
                   Book a Demo
                   <svg className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                 </a>
@@ -147,7 +147,7 @@ export default function HomePage() {
           {/* Cards */}
           <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-5">
 
-            <a href="#" className="group rounded-2xl border border-white/[0.08] p-8 flex flex-col gap-6 transition-transform duration-200 ease-out hover:scale-[1.025] hover:border-white/[0.14]" style={{ background: 'rgba(255,255,255,0.04)', backdropFilter: 'blur(12px)' }}>
+            <a href="https://calendly.com/zach-outcomecatalyst/30min" target="_blank" rel="noopener noreferrer" className="group rounded-2xl border border-white/[0.08] p-8 flex flex-col gap-6 transition-transform duration-200 ease-out hover:scale-[1.025] hover:border-white/[0.14]" style={{ background: 'rgba(255,255,255,0.04)', backdropFilter: 'blur(12px)' }}>
               <TrendingUp className="w-5 h-5 text-brand-gold" />
               <div className="flex-1">
                 <h3 className="text-white font-bold text-xl mb-2">Private Equity</h3>
@@ -161,7 +161,7 @@ export default function HomePage() {
               </span>
             </a>
 
-            <a href="#" className="group rounded-2xl border border-white/[0.08] p-8 flex flex-col gap-6 transition-transform duration-200 ease-out hover:scale-[1.025] hover:border-white/[0.14]" style={{ background: 'rgba(255,255,255,0.04)', backdropFilter: 'blur(12px)' }}>
+            <a href="https://calendly.com/zach-outcomecatalyst/30min" target="_blank" rel="noopener noreferrer" className="group rounded-2xl border border-white/[0.08] p-8 flex flex-col gap-6 transition-transform duration-200 ease-out hover:scale-[1.025] hover:border-white/[0.14]" style={{ background: 'rgba(255,255,255,0.04)', backdropFilter: 'blur(12px)' }}>
               <Building2 className="w-5 h-5 text-brand-gold" />
               <div className="flex-1">
                 <h3 className="text-white font-bold text-xl mb-2">Real Estate</h3>
@@ -175,7 +175,7 @@ export default function HomePage() {
               </span>
             </a>
 
-            <a href="#" className="group rounded-2xl border border-white/[0.08] p-8 flex flex-col gap-6 transition-transform duration-200 ease-out hover:scale-[1.025] hover:border-white/[0.14]" style={{ background: 'rgba(255,255,255,0.04)', backdropFilter: 'blur(12px)' }}>
+            <a href="https://calendly.com/zach-outcomecatalyst/30min" target="_blank" rel="noopener noreferrer" className="group rounded-2xl border border-white/[0.08] p-8 flex flex-col gap-6 transition-transform duration-200 ease-out hover:scale-[1.025] hover:border-white/[0.14]" style={{ background: 'rgba(255,255,255,0.04)', backdropFilter: 'blur(12px)' }}>
               <Activity className="w-5 h-5 text-brand-gold" />
               <div className="flex-1">
                 <h3 className="text-white font-bold text-xl mb-2">Healthcare</h3>
@@ -512,7 +512,7 @@ export default function HomePage() {
             We&apos;ll show you your own data in 30 minutes — connected, structured, and ready to use. No slides. No generic demo.
           </p>
 
-          <a href="#" className="mt-10 inline-flex items-center justify-center px-8 py-4 rounded-xl bg-brand-gold hover:bg-brand-gold-hover text-brand-dark font-bold text-base transition-all duration-200 hover:scale-[1.02] shadow-lg shadow-brand-gold/20">
+          <a href="https://calendly.com/zach-outcomecatalyst/30min" target="_blank" rel="noopener noreferrer" className="mt-10 inline-flex items-center justify-center px-8 py-4 rounded-xl bg-brand-gold hover:bg-brand-gold-hover text-brand-dark font-bold text-base transition-all duration-200 hover:scale-[1.02] shadow-lg shadow-brand-gold/20">
             Book a Demo
           </a>
 

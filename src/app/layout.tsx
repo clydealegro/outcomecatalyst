@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${dmSans.variable} scroll-smooth`}>
-      <body className="bg-white text-gray-900 overflow-x-hidden">
+      <body className="bg-white text-gray-900 overflow-x-hidden" suppressHydrationWarning>
         <Navbar />
         {/* Spacer for fixed navbar */}
         <div className="h-16" />

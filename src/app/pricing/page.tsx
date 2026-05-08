@@ -164,9 +164,9 @@ export default function PricingPage() {
                     <span className="text-brand-muted text-sm">one-time</span>
                   </div>
                 </div>
-                <Link href="/contact" className="w-full inline-flex items-center justify-center px-6 py-3.5 rounded-xl font-bold text-sm text-white border border-white/20 hover:border-white/40 bg-transparent transition-all duration-200">
+                <a href="https://calendly.com/zach-outcomecatalyst/30min" target="_blank" rel="noopener noreferrer" className="w-full inline-flex items-center justify-center px-6 py-3.5 rounded-xl font-bold text-sm text-white border border-white/20 hover:border-white/40 bg-transparent transition-all duration-200">
                   Book a Demo
-                </Link>
+                </a>
               </div>
 
             </div>
@@ -214,9 +214,9 @@ export default function PricingPage() {
                     <span className="text-brand-muted text-sm">/month</span>
                   </div>
                 </div>
-                <Link href="/contact" className="w-full inline-flex items-center justify-center px-6 py-3.5 rounded-xl font-bold text-sm text-brand-dark bg-brand-gold hover:bg-brand-gold-hover transition-all duration-200 shadow-lg shadow-brand-gold/20 hover:scale-[1.02]">
+                <a href="https://calendly.com/zach-outcomecatalyst/30min" target="_blank" rel="noopener noreferrer" className="w-full inline-flex items-center justify-center px-6 py-3.5 rounded-xl font-bold text-sm text-brand-dark bg-brand-gold hover:bg-brand-gold-hover transition-all duration-200 shadow-lg shadow-brand-gold/20 hover:scale-[1.02]">
                   Book a Demo
-                </Link>
+                </a>
               </div>
 
             </div>
@@ -261,9 +261,9 @@ export default function PricingPage() {
                     <span className="text-brand-muted text-sm">/month</span>
                   </div>
                 </div>
-                <Link href="/contact" className="w-full inline-flex items-center justify-center px-6 py-3.5 rounded-xl font-bold text-sm text-white border border-white/20 hover:border-white/40 bg-transparent transition-all duration-200">
+                <a href="https://calendly.com/zach-outcomecatalyst/30min" target="_blank" rel="noopener noreferrer" className="w-full inline-flex items-center justify-center px-6 py-3.5 rounded-xl font-bold text-sm text-white border border-white/20 hover:border-white/40 bg-transparent transition-all duration-200">
                   Book a Demo
-                </Link>
+                </a>
               </div>
 
             </div>
@@ -519,12 +519,14 @@ export default function PricingPage() {
           </p>
 
           <div className="mt-8 flex items-center gap-4">
-            <Link
-              href="/contact"
+            <a
+              href="https://calendly.com/zach-outcomecatalyst/30min"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 rounded-xl bg-brand-gold hover:bg-brand-gold-hover text-brand-dark font-bold text-sm transition-all duration-200 hover:scale-[1.02] shadow-lg shadow-brand-gold/20"
             >
               Book a Demo
-            </Link>
+            </a>
             <Link
               href="/contact"
               className="inline-flex items-center justify-center px-8 py-4 rounded-xl bg-transparent border border-white/20 hover:border-white/40 text-white font-bold text-sm transition-all duration-200"

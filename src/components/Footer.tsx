@@ -11,10 +11,10 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 lg:px-10 pt-16 pb-8">
 
         {/* Top footer row */}
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-12 pb-12 border-b border-white/[0.07]">
+        <div className="flex flex-col lg:flex-row lg:justify-between gap-12 pb-12 border-b border-white/[0.07]">
 
           {/* Brand col */}
-          <div className="lg:col-span-1 flex flex-col gap-5">
+          <div className="flex flex-col gap-5 max-w-xs">
             <img
               src="/assets/oc-logo-nav-v2.png"
               alt="OutcomeCatalyst"
@@ -24,6 +24,9 @@ export default function Footer() {
               Unified operating layer for investment firms and healthcare organizations. Connect fragmented data, standardize workflows, enable faster decisions across your portfolio.
             </p>
           </div>
+
+          {/* Right cols group */}
+          <div className="flex flex-col sm:flex-row gap-12 lg:gap-16">
 
           {/* Industry col */}
           <div className="flex flex-col gap-4">
@@ -66,7 +69,7 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <p className="text-white/40 text-xs font-semibold tracking-widest uppercase">Company</p>
             <ul className="flex flex-col gap-3">
-              <li><Link href="#" className="text-brand-muted text-sm hover:text-white transition-colors duration-150">About</Link></li>
+              <li><Link href="/about" className={`text-sm transition-colors duration-150 ${pathname === '/about' ? 'text-white hover:text-brand-gold' : 'text-brand-muted hover:text-white'}`}>About</Link></li>
               <li><Link href="/pricing" className={`text-sm transition-colors duration-150 ${pathname === '/pricing' ? 'text-white hover:text-brand-gold' : 'text-brand-muted hover:text-white'}`}>Pricing</Link></li>
               <li><Link href="/contact" className={`text-sm transition-colors duration-150 ${pathname === '/contact' ? 'text-white hover:text-brand-gold' : 'text-brand-muted hover:text-white'}`}>Contact Us</Link></li>
             </ul>
@@ -76,9 +79,11 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <p className="text-white/40 text-xs font-semibold tracking-widest uppercase">Connect</p>
             <ul className="flex flex-col gap-3">
-              <li><Link href="#" className="text-brand-muted text-sm hover:text-white transition-colors duration-150">LinkedIn</Link></li>
+              <li><a href="https://www.linkedin.com/in/zach-shapiro/" target="_blank" rel="noopener noreferrer" className="text-brand-muted text-sm hover:text-white transition-colors duration-150">LinkedIn</a></li>
             </ul>
           </div>
+
+          </div>{/* end right cols group */}
 
         </div>
 

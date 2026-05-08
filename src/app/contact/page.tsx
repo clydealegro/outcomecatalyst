@@ -150,8 +150,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="text-white/40 text-[10px] font-semibold tracking-widest uppercase mb-1">LinkedIn</p>
-                  <a href="#" className="text-white text-sm hover:text-brand-gold transition-colors duration-150 font-medium">
-                    Zach&apos;s LinkedIn profile link
+                  <a href="https://www.linkedin.com/in/zach-shapiro/" target="_blank" rel="noopener noreferrer" className="text-white text-sm hover:text-brand-gold transition-colors duration-150 font-medium">
+                    Zach Shapiro
                   </a>
                 </div>
               </div>
