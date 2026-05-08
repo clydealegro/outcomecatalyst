@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-brand-dark: #0D0F14;
+  --color-brand-darker: #080A0E;
+  --color-brand-gold: #D4A82A;
+  --color-brand-gold-hover: #E8BA2E;
+  --color-brand-muted: #8B909A;
+  --font-sans: var(--font-dm-sans), sans-serif;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  padding-bottom: 0;
+  transition: max-height 0.35s ease, opacity 0.25s ease, padding-bottom 0.35s ease;
+}
+
+.faq-answer.faq-expanded {
+  max-height: 400px;
+  opacity: 1;
+  padding-bottom: 1.5rem;
+}
