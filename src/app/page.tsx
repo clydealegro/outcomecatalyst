@@ -33,7 +33,7 @@ export default function HomePage() {
           style={{ paddingRight: '30px' }}
         >
           <img
-            src="/assets/orb-graphic-v2.png"
+            src="/assets/oc-homepage-hero-g5.png"
             alt=""
             aria-hidden="true"
             style={{
