@@ -47,7 +47,7 @@ export default function AboutPage() {
 
             {[
               { name: 'Zach Shapiro', role: 'Founder & CEO', photo: '/assets/zach-shapiro.png' },
-              { name: 'Name Placeholder', role: 'Chief Technology Officer', photo: null },
+              { name: 'Mariano Neto', role: 'Chief Technology Officer', photo: '/assets/mariano-neto.png' },
               { name: 'Jessica Fox', role: 'Head of Client Outcomes', photo: '/assets/jessica-fox.png' },
             ].map((member, idx) => (
               <div key={idx} className="flex flex-col gap-5">
