@@ -17,11 +17,13 @@ export default function RealEstatePage() {
         pillLabel="Real Estate"
         heading={
           <>
-            ARGUS, Yardi, Excel, and investor decks. Four sources. Four different versions of how your <span className="text-brand-gold">portfolio is performing.</span>
+            ARGUS, Yardi, Excel & investor decks. 4 sources. 4 versions of how your <span className="text-brand-gold">portfolio is performing.</span>
           </>
         }
         bodyText="Nothing connects, nothing reconciles, and every quarter your team rebuilds the same reports from scratch. Your underwriting never learns from what actually happened. We fix that with a single operating layer that ties it all together."
         ctaSubtext="See a multi-property dashboard walkthrough. 30 minutes. No commitment."
+        heroImage="/assets/oc-realestate-hero-g2.png"
+        headingMaxWidth="max-w-2xl"
         stats={[
           {
             value: '40–50% faster',

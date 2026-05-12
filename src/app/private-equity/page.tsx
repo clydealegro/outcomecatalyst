@@ -24,6 +24,7 @@ export default function PrivateEquityPage() {
         }
         bodyText="Your portcos send data in spreadsheets, PDFs, and emails so every decision turns into a reconciliation exercise. We give you a single operating layer across your portfolio so you can move faster on diligence, reporting, and value creation."
         ctaSubtext="See how we work across your portfolio. 30 minutes. No commitment."
+        heroImage="/assets/oc-pe-hero-g1.png"
         stats={[
           {
             value: '60%',

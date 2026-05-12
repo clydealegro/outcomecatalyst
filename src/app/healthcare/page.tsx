@@ -17,12 +17,14 @@ export default function HealthcarePage() {
         pillLabel="Healthcare"
         heading={
           <>
-            Disconnected systems are costing you revenue.<br />
+            Disconnected systems are costing you revenue.{' '}
             <span className="text-brand-gold">We make them work together.</span>
           </>
         }
         bodyText="Your revenue lives across EHR, billing, CRM, and operational systems that don't talk to each other. We connect and govern that data so you can see where money is leaking and fix it."
         ctaSubtext="See how we trace revenue leakage across your workflows. HIPAA-compliant. 30 minutes."
+        heroImage="/assets/oc-healthcare-hero-g1.png"
+        headingMaxWidth="max-w-xl"
         stats={[
           {
             value: '$2M/month',

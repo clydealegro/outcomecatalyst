@@ -13,6 +13,8 @@ interface IndustryHeroProps {
   bodyText: string;
   ctaSubtext: string;
   stats: Stat[];
+  heroImage?: string;
+  headingMaxWidth?: string;
 }
 
 const iconMap: Record<string, LucideIcon> = {
@@ -28,12 +30,38 @@ export default function IndustryHero({
   bodyText,
   ctaSubtext,
   stats,
+  heroImage,
+  headingMaxWidth = 'max-w-4xl',
 }: IndustryHeroProps) {
   const Icon = iconMap[industry];
 
   return (
     <section className="relative overflow-hidden" style={{ backgroundColor: '#010215' }}>
 
+      {/* Hero background image */}
+      {heroImage && (
+        <div
+          className="absolute inset-0 pointer-events-none overflow-hidden flex items-start justify-end pt-[46px] lg:pt-[78px]"
+          style={{ paddingRight: '30px' }}
+        >
+          <img
+            src={heroImage}
+            alt=""
+            aria-hidden="true"
+            style={{
+              width: '52%',
+              height: 'auto',
+              WebkitMaskImage:
+                'linear-gradient(to right, transparent 0%, black 18%, black 82%, transparent 100%), linear-gradient(to bottom, transparent 0%, black 12%, black 82%, transparent 100%)',
+              WebkitMaskComposite: 'source-in',
+              maskImage:
+                'linear-gradient(to right, transparent 0%, black 18%, black 82%, transparent 100%), linear-gradient(to bottom, transparent 0%, black 12%, black 82%, transparent 100%)',
+              maskComposite: 'intersect',
+              opacity: 1,
+            }}
+          />
+        </div>
+      )}
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-10">
 
@@ -47,7 +75,7 @@ export default function IndustryHero({
           </div>
 
           {/* H1 */}
-          <h1 className="text-4xl lg:text-[52px] font-bold leading-[1.1] tracking-tight text-white max-w-4xl text-balance">
+          <h1 className={`text-4xl lg:text-[52px] font-bold leading-[1.1] tracking-tight text-white text-balance ${headingMaxWidth}`}>
             {heading}
           </h1>
 
