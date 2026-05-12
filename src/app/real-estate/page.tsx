@@ -32,8 +32,8 @@ export default function RealEstatePage() {
             description: 'Automatically compare ARGUS projections to Yardi performance',
           },
           {
-            value: '2x faster',
-            label: 'Investor and asset-level reporting',
+            value: '50% less',
+            label: 'Time spent on investor reporting',
             description: 'Eliminate manual data aggregation across properties',
           },
           {
