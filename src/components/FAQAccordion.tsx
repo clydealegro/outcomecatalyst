@@ -78,7 +78,7 @@ export default function FAQAccordion({ items }: { items?: FAQItem[] }) {
             className={`faq-item border-t border-white/[0.08] ${faq.isLast ? 'border-b border-b-white/[0.08]' : ''}`}
           >
             <button
-              className="faq-trigger w-full flex items-center justify-between gap-6 py-6 text-left"
+              className="faq-trigger w-full flex items-center justify-between gap-6 py-6 text-left cursor-pointer"
               onClick={() => setOpenIndex(isOpen ? null : index)}
             >
               <span
