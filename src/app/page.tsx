@@ -315,7 +315,7 @@ export default function HomePage() {
           <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-5">
 
             {/* Private Equity */}
-            <div className="rounded-2xl border border-white/[0.08] flex flex-col overflow-hidden" style={{ background: 'rgba(255,255,255,0.04)', backdropFilter: 'blur(12px)' }}>
+            <a href="/private-equity" className="rounded-2xl border border-white/[0.08] flex flex-col overflow-hidden cursor-pointer" style={{ background: 'rgba(255,255,255,0.04)', backdropFilter: 'blur(12px)' }}>
               <div className="w-full h-52 overflow-hidden">
                 <img src="/assets/pe-firm-image-card.png" alt="Private Equity" className="w-full h-full object-cover object-center" />
               </div>
@@ -327,10 +327,10 @@ export default function HomePage() {
                   <p className="text-brand-muted text-xs mt-2">5B+ AUM mid-market PE firm.</p>
                 </div>
               </div>
-            </div>
+            </a>
 
             {/* Real Estate */}
-            <div className="rounded-2xl border border-white/[0.08] flex flex-col overflow-hidden" style={{ background: 'rgba(255,255,255,0.04)', backdropFilter: 'blur(12px)' }}>
+            <a href="/real-estate" className="rounded-2xl border border-white/[0.08] flex flex-col overflow-hidden cursor-pointer" style={{ background: 'rgba(255,255,255,0.04)', backdropFilter: 'blur(12px)' }}>
               <div className="w-full h-52 overflow-hidden">
                 <img src="/assets/real-estate-v2.png" alt="Real Estate" className="w-full h-full object-cover object-center" />
               </div>
@@ -342,10 +342,10 @@ export default function HomePage() {
                   <p className="text-brand-muted text-xs mt-2">35+ asset real estate portfolio</p>
                 </div>
               </div>
-            </div>
+            </a>
 
             {/* Healthcare */}
-            <div className="rounded-2xl border border-white/[0.08] flex flex-col overflow-hidden" style={{ background: 'rgba(255,255,255,0.04)', backdropFilter: 'blur(12px)' }}>
+            <a href="/healthcare" className="rounded-2xl border border-white/[0.08] flex flex-col overflow-hidden cursor-pointer" style={{ background: 'rgba(255,255,255,0.04)', backdropFilter: 'blur(12px)' }}>
               <div className="w-full h-52 overflow-hidden">
                 <img src="/assets/clinical-medicine-office.png" alt="Healthcare" className="w-full h-full object-cover object-center" />
               </div>
@@ -357,7 +357,7 @@ export default function HomePage() {
                   <p className="text-brand-muted text-xs mt-2">$60M revenue clinical trials portco</p>
                 </div>
               </div>
-            </div>
+            </a>
 
           </div>
 
