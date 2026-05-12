@@ -190,7 +190,7 @@ export default function RealEstatePage() {
           </div>
 
           {/* Video banner */}
-          <VideoLightbox pillLabel="Real Estate Dashboard" heading="RE Dashboard / Projected vs Actual View. Must show ARGUS projections vs Yardi actuals, variance analysis, or investor report output a GP would recognize." />
+          <VideoLightbox pillLabel="Real Estate Dashboard" heading="See how a GP gets ARGUS projections vs. Yardi actuals in one view — variance analysis and investor reporting built on live data." />
 
         </div>
 

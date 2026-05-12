@@ -191,7 +191,7 @@ export default function HealthcarePage() {
           </div>
 
           {/* Video banner */}
-          <VideoLightbox pillLabel="Healthcare Dashboard" heading="Healthcare Dashboard / Workflow Revenue Tracking View. Must show a real output a COO would recognize: referral-to-collection pipeline, denial root causes, revenue by workflow stage." />
+          <VideoLightbox pillLabel="Healthcare Dashboard" heading="See how a COO gets a live view of revenue across every workflow — from referral to collection, denial root causes, and revenue by stage." />
 
         </div>
 

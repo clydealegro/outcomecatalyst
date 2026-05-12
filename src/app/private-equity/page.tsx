@@ -178,7 +178,7 @@ export default function PrivateEquityPage() {
           </div>
 
           {/* Video banner */}
-          <VideoLightbox heading="PE Dashboard / Portfolio Operating View. Must show EBITDA bridge, portco KPIs, or workflow status an Operating Partner would recognize." />
+          <VideoLightbox heading="See how an Operating Partner gets a live view across every portco — EBITDA, KPIs, and workflow status in one place." />
 
         </div>
 
