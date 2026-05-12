@@ -23,6 +23,7 @@ export default function RealEstatePage() {
         bodyText="Nothing connects, nothing reconciles, and every quarter your team rebuilds the same reports from scratch. Your underwriting never learns from what actually happened. We fix that with a single operating layer that ties it all together."
         ctaSubtext="See a multi-property dashboard walkthrough. 30 minutes. No commitment."
         heroImage="/assets/oc-realestate-hero-g2.png"
+        heroImageRight="0px"
         headingMaxWidth="max-w-2xl"
         stats={[
           {

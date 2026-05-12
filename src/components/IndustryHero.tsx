@@ -14,6 +14,7 @@ interface IndustryHeroProps {
   ctaSubtext: string;
   stats: Stat[];
   heroImage?: string;
+  heroImageRight?: string;
   headingMaxWidth?: string;
 }
 
@@ -31,6 +32,7 @@ export default function IndustryHero({
   ctaSubtext,
   stats,
   heroImage,
+  heroImageRight = '30px',
   headingMaxWidth = 'max-w-4xl',
 }: IndustryHeroProps) {
   const Icon = iconMap[industry];
@@ -42,7 +44,7 @@ export default function IndustryHero({
       {heroImage && (
         <div
           className="absolute inset-0 pointer-events-none overflow-hidden flex items-start justify-end pt-[46px] lg:pt-[78px]"
-          style={{ paddingRight: '30px' }}
+          style={{ paddingRight: heroImageRight }}
         >
           <img
             src={heroImage}
